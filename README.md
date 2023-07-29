@@ -54,7 +54,7 @@ The Quiz Application is a backend application that can perform CRUD operations o
    - Customers can send responses for some questions in the form of JSON.
    - Server will computer and return the total score based on the input.
    - You will get total score along with **HTTP 200 OK** as the response from server.
-## Status Codes Used
+## HTTP Status Codes Used
 1. **HTTP 200 OK:** The request succeeded. The result meaning of "success" depends on the HTTP method
    - GET: The resource has been fetched and transmitted in the message body.
 2. **HTTP 201 CREATED:** The request succeeded, and a new resource was created as a result. This is typically the response sent after POST requests, or some PUT requests. 
